@@ -1,16 +1,16 @@
 # Adventkranz-LPassini
 
 ### Project description: 
-Introduction/Project summary 
+The project „Adventkranz“ is a basic revision of our coding, from our last two years. It is here to remind us of some of the coding skills, that we learned. The theme is inspired of our current winter season. It will show a countdown that tells me how many days are left until Christmas. Furthermore, there will light a candle on every Adventsonntag. 
 
 ### Development platform: 
-(OS, Unity Version, Visual Studio Version, used SDKs)
+Windows, Unity 2020.1.5f1, Visual Studio Community 2019
 
 ### Target platform: 
-WebGL, Mobile, VR Device incl. reference resolution 
+WebGL, Android
 
 ### Visuals: 
-Screenshots (concept and experience), Video
+
 
 ### Necessary setup/execution steps: 
 Installation process, e.g. step by step instructions that I can run the project after cloning it
@@ -19,10 +19,7 @@ Installation process, e.g. step by step instructions that I can run the project 
 (if used Fonts, Sounds, Music, Graphics, Materials, Code etc.)
 
 ### Project state: 
-incl. progress in percent
-
-### Limitations: 
+About 50% advanced
 
 ### Lessons Learned: 
-
-Copyright by you :)
+Copyright by LPassini
