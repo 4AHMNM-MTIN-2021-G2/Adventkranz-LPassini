@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 44610918}
   - component: {fileID: 44610917}
   m_Layer: 5
-  m_Name: Text (2)
+  m_Name: DaysD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -372,7 +372,7 @@ GameObject:
   - component: {fileID: 705462602}
   - component: {fileID: 705462601}
   m_Layer: 5
-  m_Name: Text (3)
+  m_Name: UntilChristmasS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -451,7 +451,7 @@ GameObject:
   - component: {fileID: 718825547}
   - component: {fileID: 718825546}
   m_Layer: 5
-  m_Name: Text (1)
+  m_Name: XXD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -960,7 +960,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1353512621}
   m_Layer: 0
-  m_Name: Kerze (2)
+  m_Name: Kerze2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -992,7 +992,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1382111871}
   m_Layer: 0
-  m_Name: Kerze (1)
+  m_Name: Kerze1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1013,6 +1013,50 @@ Transform:
   - {fileID: 1285599915}
   m_Father: {fileID: 807883926}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1398994396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1398994398}
+  - component: {fileID: 1398994397}
+  m_Layer: 0
+  m_Name: CountDays
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1398994397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398994396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29bfa512192645b46baef0e61d2ccab7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DaysGui: {fileID: 718825546}
+--- !u!4 &1398994398
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398994396}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.8763405, y: -0.9754403, z: 558.2999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1492412477
 GameObject:
@@ -1354,7 +1398,7 @@ GameObject:
   - component: {fileID: 1801684079}
   - component: {fileID: 1801684078}
   m_Layer: 5
-  m_Name: Text
+  m_Name: HalloWintersemsterS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1421,6 +1465,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1801684076}
   m_CullTransparentMesh: 0
+--- !u!1 &1845851743
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1845851745}
+  - component: {fileID: 1845851744}
+  m_Layer: 0
+  m_Name: Illuminate Adventkranz
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1845851744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845851743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dc96e0939bc5344093344b2da03d693, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flame1: {fileID: 285887045}
+  flame2: {fileID: 1285599914}
+  flame3: {fileID: 1648894451}
+  flame4: {fileID: 1492412477}
+--- !u!4 &1845851745
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845851743}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.8763405, y: -0.9754403, z: 558.2999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1957493197
 GameObject:
   m_ObjectHideFlags: 0
@@ -1431,7 +1522,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1957493198}
   m_Layer: 0
-  m_Name: Kerze (3)
+  m_Name: Kerze3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
