@@ -22,4 +22,8 @@ Installation process, e.g. step by step instructions that I can run the project 
 100% 
 
 ### Lessons Learned: 
+Lesson learned:
+A Scriptable Object (SC) is a container, which is used to store large amounts of data. 
+It is simple created as an Script. 
+
 Copyright by LPassini
